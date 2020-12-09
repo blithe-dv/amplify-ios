@@ -21,8 +21,12 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		764E8B7C25B0CE4C00455863 /* CommandImportModelsTasksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764E8B7B25B0CE4C00455863 /* CommandImportModelsTasksTests.swift */; };
+		764E8B9B25B0F58000455863 /* CommandImportModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764E8B9A25B0F58000455863 /* CommandImportModelsTests.swift */; };
 		76750A4D258AAB7E003CE4FA /* CommandImportConfigTasksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76750A4B258AAB7E003CE4FA /* CommandImportConfigTasksTests.swift */; };
 		76750A4E258AAB7E003CE4FA /* CommandImportConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76750A4C258AAB7E003CE4FA /* CommandImportConfigTests.swift */; };
+		76750B58258AE57A003CE4FA /* CommandImportModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76750B57258AE57A003CE4FA /* CommandImportModels.swift */; };
+		76750B59258AE57A003CE4FA /* CommandImportModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76750B57258AE57A003CE4FA /* CommandImportModels.swift */; };
 		7698002A25830DFC0047967C /* MockAmplifyCommandEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7698002925830DFB0047967C /* MockAmplifyCommandEnvironment.swift */; };
 		7698FA38257EEC5A0047967C /* CommandEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7698FA37257EEC590047967C /* CommandEnvironment.swift */; };
 		7698FA39257EEC5A0047967C /* CommandEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7698FA37257EEC590047967C /* CommandEnvironment.swift */; };
@@ -847,9 +851,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		764E8B7B25B0CE4C00455863 /* CommandImportModelsTasksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandImportModelsTasksTests.swift; sourceTree = "<group>"; };
+		764E8B9A25B0F58000455863 /* CommandImportModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandImportModelsTests.swift; sourceTree = "<group>"; };
 		76750A0D25899E1B003CE4FA /* FileManagerUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerUtilsTests.swift; sourceTree = "<group>"; };
 		76750A4B258AAB7E003CE4FA /* CommandImportConfigTasksTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandImportConfigTasksTests.swift; sourceTree = "<group>"; };
 		76750A4C258AAB7E003CE4FA /* CommandImportConfigTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandImportConfigTests.swift; sourceTree = "<group>"; };
+		76750B57258AE57A003CE4FA /* CommandImportModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandImportModels.swift; sourceTree = "<group>"; };
 		7698002925830DFB0047967C /* MockAmplifyCommandEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAmplifyCommandEnvironment.swift; sourceTree = "<group>"; };
 		7698FA37257EEC590047967C /* CommandEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandEnvironment.swift; sourceTree = "<group>"; };
 		7698FC942581BA470047967C /* AmplifyFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplifyFileManager.swift; sourceTree = "<group>"; };
@@ -1361,6 +1368,8 @@
 			children = (
 				76750A4B258AAB7E003CE4FA /* CommandImportConfigTasksTests.swift */,
 				76750A4C258AAB7E003CE4FA /* CommandImportConfigTests.swift */,
+				764E8B7B25B0CE4C00455863 /* CommandImportModelsTasksTests.swift */,
+				764E8B9A25B0F58000455863 /* CommandImportModelsTests.swift */,
 			);
 			name = Commands;
 			path = Tests/Commands;
@@ -1428,6 +1437,7 @@
 				76C7F0E425797E7200817F07 /* AmplifyCommand.swift */,
 				76C7F0E025797E7200817F07 /* CommandExecutable.swift */,
 				76FC0F962579A66900829A33 /* CommandImportConfig.swift */,
+				76750B57258AE57A003CE4FA /* CommandImportModels.swift */,
 			);
 			path = Commands;
 			sourceTree = "<group>";
@@ -2880,6 +2890,7 @@
 			files = (
 				76C7F10325797E7200817F07 /* AmplifyCommandEnvironment.swift in Sources */,
 				76FC0F972579A66900829A33 /* CommandImportConfig.swift in Sources */,
+				76750B58258AE57A003CE4FA /* CommandImportModels.swift in Sources */,
 				76C7F0F725797E7200817F07 /* CommandEnvironmentProvider.swift in Sources */,
 				76FC0FD42579AAE400829A33 /* XcodeProject.swift in Sources */,
 				76FC10292579D2D800829A33 /* CLICommandReportable.swift in Sources */,
@@ -2920,6 +2931,7 @@
 				76C7F10025797E7200817F07 /* AmplifyCommandError.swift in Sources */,
 				76FC0FD52579AAE400829A33 /* XcodeProject.swift in Sources */,
 				76C7F0FC25797E7200817F07 /* AmplifyCommandResult.swift in Sources */,
+				764E8B7C25B0CE4C00455863 /* CommandImportModelsTasksTests.swift in Sources */,
 				7698002A25830DFC0047967C /* MockAmplifyCommandEnvironment.swift in Sources */,
 				OBJ_439 /* AmplifyCLIiOSTests.swift in Sources */,
 				76C7F0F825797E7200817F07 /* CommandEnvironmentProvider.swift in Sources */,
@@ -2927,11 +2939,13 @@
 				7698FC962581BA470047967C /* AmplifyFileManager.swift in Sources */,
 				76C7F0FA25797E7200817F07 /* CommandExecutable.swift in Sources */,
 				76C7F0EA25797E7200817F07 /* XcodeProj+Helpers.swift in Sources */,
+				764E8B9B25B0F58000455863 /* CommandImportModelsTests.swift in Sources */,
 				7698FF562582F4C90047967C /* Mock.swift in Sources */,
 				76C7F10425797E7200817F07 /* AmplifyCommandEnvironment.swift in Sources */,
 				76750A4E258AAB7E003CE4FA /* CommandImportConfigTests.swift in Sources */,
 				76FC102A2579D2D800829A33 /* CLICommandReportable.swift in Sources */,
 				769EEFAD25AE55DB0017C242 /* AmplifyCommandEnvironmentTests.swift in Sources */,
+				76750B59258AE57A003CE4FA /* CommandImportModels.swift in Sources */,
 				76C7F0FE25797E7200817F07 /* AmplifyCommandTask.swift in Sources */,
 				OBJ_440 /* XCTestManifests.swift in Sources */,
 				769EEFAB25AE55DB0017C242 /* AmplifyCommandErrorTests.swift in Sources */,
